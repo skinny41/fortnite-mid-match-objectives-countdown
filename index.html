@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Countdown Timers</title>
+    <style>
+        .timer-container {
+            margin: 10px;
+            display: none; /* Hide timers initially */
+        }
+        .timer {
+            font-size: 2em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <button id="startButton">Start Countdowns</button>
+    
+    <div class="timer-container" id="timerContainer1">
+        <div>Forecast spawns in:</div>
+        <div class="timer" id="timer1">377</div>
+    </div>
+    <div class="timer-container" id="timerContainer2">
+        <div>bunker opens in:</div>
+        <div class="timer" id="timer2">522</div>
+    </div>
+    <div class="timer-container" id="timerContainer3">
+        <div>island spawns in:</div>
+        <div class="timer" id="timer3">727</div>
+    </div>
+    <div class="timer-container" id="timerContainer4">
+        <div>zone fully closes in:</div>
+        <div class="timer" id="timer4">1587</div>
+    </div>
+
+    <script src="countdowns.js"></script>
+</body>
+</html>
