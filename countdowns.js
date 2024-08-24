@@ -5,7 +5,7 @@ document.getElementById('startButton').addEventListener('click', function() {
     });
 
     // Start countdowns
-    startCountdown('timer1', 'Forecast spawns in', 377);
+    startCountdown('timer1', 'Forecast spawns in', 477);
     startCountdown('timer2', 'bunker opens in', 522);
     startCountdown('timer3', 'island spawns in', 727);
     startCountdown('timer4', 'zone fully closes in', 1587);
