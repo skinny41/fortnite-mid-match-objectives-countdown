@@ -5,9 +5,9 @@ document.getElementById('startButton').addEventListener('click', function() {
     });
 
     // Start countdowns
-    startCountdown('timer1', 'Forecast spawns in', 477);
-    startCountdown('timer2', 'bunker opens in', 673);
-    startCountdown('timer3', 'island spawns in', 865);
+    startCountdown('timer1', 'Forecast spawns in', 332);
+    startCountdown('timer2', 'bunker opens in', 528);
+    startCountdown('timer3', 'island spawns in', 719);
 });
 
 function startCountdown(timerId, message, duration) {
